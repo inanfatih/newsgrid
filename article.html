@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <title>NewsGrid | About</title>
+    <title>NewsGrid | Latest News</title>
   </head>
   <body>
     <nav id="main-nav">
@@ -40,18 +40,27 @@
         </div>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="current">About</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </div>
     </nav>
 
-    <section id="about">
+    <section id="article">
       <div class="container">
         <div class="page-container">
           <article class="card">
+            <img src="img/articles/ent1.jpg" alt="Entertainment" />
             <h1 class="l-heading">
-              About Our Organization
+              Lorem ipsum dolor sit amet.
             </h1>
+
+            <div class="meta">
+              <small>
+                <i class="fas fa-user"></i> John Doe | January 11, 2020
+              </small>
+              <div class="category category-ent">Entertainment</div>
+            </div>
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
               molestias nostrum quod explicabo. Voluptates sint nobis aliquam,
@@ -81,7 +90,29 @@
               iure explicabo sapiente, sequi deserunt magnam!
             </p>
           </article>
-          <aside class="card bg-primary">
+          <aside id="category" class="card">
+            <h2>Categories</h2>
+            <ul class="list">
+              <li>
+                <a href="#"> <i class="fas fa-chevron-right">Sports</i> </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-chevron-right">Entertainment</i>
+                </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fas fa-chevron-right">Technology</i> </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fas fa-chevron-right">Fashion</i> </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fas fa-chevron-right">Shopping</i> </a>
+              </li>
+            </ul>
+          </aside>
+          <aside class="card bg-secondary">
             <h2>
               Join Our Club
             </h2>
